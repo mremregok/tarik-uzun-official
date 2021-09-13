@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AnasayfaComponent } from './anasayfa/anasayfa.component';
 
 const routes: Routes = [
-  { path: 'anasayfa', component: AnasayfaComponent }
+  { path: '', component: AnasayfaComponent }
 ];
 
 @NgModule({
